@@ -28,3 +28,11 @@ instructions.
 The latest version of this software may be obtained at
 https://www.postgresql.org/download/.  For more information look at our
 web site located at https://www.postgresql.org/.
+
+After you compile and install successfully, please enter the following command on the client to select the page replacement algorithm you want:
+1, algorithm l: LRU
+2, algorithm e: EACLOCK
+3, algorithm s: Clock Sweep
+4, algorithm h: hyperbolic
+5, algorithm ed: EACLOCK-FDW
+6, algorithm ew: EACLOCK-FWA
